@@ -1,0 +1,47 @@
+---
+title: "607_Week_11_Discussion_Recommender Systems"
+output: html_document
+course: R-607 CUNY MSDA program
+
+---
+
+** 607_Week_11_Discussion_Recommender Systems **
+
+Summary of Assignment
+Analyze a reccomender system
+
+Stumble Upon
+
+http://www.stumbleupon.com/
+
+StumbleUpon is a recommender system for web surfers. Using ratings gathered with a collaborative opinion rating system it can match users with interesting websites based on their preferences. Users can also rate interesting sites for others to check out.
+
+Scenario Design Analysis:
+
+Who are your target users? Any web surfer
+
+What are their key goals?  Direct users to other web sites
+
+How can you accomplish these goals? Obtain the interests of each user and analyze.  The user selects their own interests (at least 10).
+
+Reverse engineering:
+
+Develop a data store of user interests selected and the sites chosen based on those interests and categorize the results by topic.
+
+Keep track of whether users agreed (liked) the sites selected.
+
+Use this information as a training model for future users, for example a random forest prediction model.
+
+Continue to improve the model and rerun the model regularly.
+
+Apply the model to new users
+
+Recommendations:
+
+Add more features to communicate with other users with similar interests.  
+
+Allow users to avoid selection of advertising or purchases.
+
+Include internet portals to find, instead of just articles
+
+**End**
